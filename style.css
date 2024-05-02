@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('background.jpeg') no-repeat;
+    background: url('background.jpeg') repeat;
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +19,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 25px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,8 +67,9 @@ header {
 }
 .sec
 {
+    margin: 30px;
     position: right;
-    padding: 50px;
+    padding: 40px;
     background: hsl(350, 65%, 72%);
 }
 .sec h2
@@ -81,4 +82,38 @@ header {
 {
     font-size: 1.2em;
     color: white;
+    text-align: justify;
+}
+.img
+{
+    position: center;
+    padding: 10px;
+    background: #f47389;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.img_a
+{
+    position: center;
+    padding: 10px;
+    background: #f47389;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.img_a figcaption
+{
+    font-size: 1.2em;
+    color: hsl(0, 100%, 91%);
+    text-align: center;
+}
+
+.sec ol
+{
+    font-size: 1.2em;
+    color: hwb(0 100% 0%);
+    text-align: justify;
 }
